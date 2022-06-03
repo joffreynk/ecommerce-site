@@ -1,0 +1,42 @@
+.barner{
+    background-image: url(../image/banner-bg.webp);
+    background-size: cover;
+    background-position: 100%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: rows; */
+    height: 450px;
+    /* margin: 0px; */
+    text-align: center;
+    margin-top: -15px;
+    
+}
+
+.barner .title{
+    padding-top:  20%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.barner .title span{
+    color:rgb(255, 102, 0)
+}
+
+.barner p{
+    color: gray;
+    width: 45%;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 20%;
+}
+
+.barner  button{
+    margin-bottom: 30px;
+}
+
+
+
+#end-barner{
+    padding-bottom: 50px;
+}

@@ -1,0 +1,59 @@
+#header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: rgb(250, 250, 250);
+}
+
+
+#header ul li{
+    display: inline-block;
+    padding-left: 3%;
+    font-size: 18px;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(26, 22, 29);
+}
+
+.logo{
+    width: 100px;
+}
+
+#menu{
+    flex: 1;
+    float: right;
+    text-align: center;
+    /* padding-right: 5%; */
+
+}
+
+#cart{
+    display: flex;
+    width: 150px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.emojis-header{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+    width: 40px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+
+#menu li:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.emojis-header:hover{
+    background-color: orange;
+}

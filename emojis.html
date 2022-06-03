@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emojis</title>
+</head>
+<body>
+    <div class="root" id="root"></div>
+    <script>
+        let root = document.getElementById('root');
+       
+        for(let i=0; i<10000; i++){
+            let el = document.createElement("span")
+            el.innerHTML = `&#${i};`
+            root.appendChild(el)
+        }
+    </script>
+</body>
+</html>

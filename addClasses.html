@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/body.css" />
+    <link rel="stylesheet" href="styles/barner.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <title>Document</title>
+
+    <style>
+      .bgt {
+        background-color: blue;
+      }
+      .our-products .bgt{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="display">
+      <div class="product bgt">
+        <img class="prodct-picture" src="image/product-1.png" />
+        <h2>Fresh Orange</h2>
+        <p>$4.99/- - 10.99/-</p>
+        <span><img class="product-rating" src="image/rating.jpg" /></span>
+        <button>Add To Cart</button>
+      </div>
+    </div>
+    <div class="our-products">
+      <h2>Our <span class="item-category">Products</span></h2>
+      <div class="products">
+        <div class="product">
+          <img class="prodct-picture" src="image/product-1.png" />
+          <h2>Fresh Orange</h2>
+          <p>$4.99/- - 10.99/-</p>
+          <span><img class="product-rating" src="image/rating.jpg" /></span>
+          <button>Add To Cart</button>
+        </div>
+        <div class="product">
+          <img class="prodct-picture" src="image/product-2.png" />
+          <h2>Fresh Onion</h2>
+          <p>$4.99/- - 10.99/-</p>
+          <span><img class="product-rating" src="image/rating.jpg" /></span>
+          <button>Add To Cart</button>
+        </div>
+        <div class="product">
+          <img class="prodct-picture" src="image/product-3.png" />
+          <h2>Fresh Meat</h2>
+          <p>$4.99/- - 10.99/-</p>
+          <span><img class="product-rating" src="image/rating.jpg" /></span>
+          <button>Add To Cart</button>
+        </div>
+        <div class="product">
+          <img class="prodct-picture" src="image/product-4.png" />
+          <h2>Fresh cabbage</h2>
+          <p>$4.99/- - 10.99/-</p>
+          <span><img class="product-rating" src="image/rating.jpg" /></span>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let products = document.querySelectorAll(".product");
+      let mainproducts = document.querySelector(".products");
+      let allprod = [...products];
+      let display = document.getElementById("display");
+      products.forEach((product) => {
+        product.onclick = () => {
+          products.forEach((prod) => prod.classList.remove("bgt"));
+          product.classList.add("bgt");
+          console.log("before add: ", products);
+          if (product.classList.contains("bgt")) {
+            const newproduct = product.cloneNode(true)
+            display.innerHTML=''
+            display.append(newproduct)
+          }
+        };
+      });
+    </script>
+  </body>
+</html>
