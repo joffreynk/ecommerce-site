@@ -1,0 +1,69 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 50px;
+
+}
+
+li{
+    list-style: none;
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgb(61, 61, 61);
+    transition: margin .4s;
+    cursor: pointer;
+}
+
+li span{
+    transition: margin .5s;
+}
+
+li:hover span{
+    margin-left: 25px;
+}
+
+.footerInfo{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    border-bottom: 2px solid rgb(182, 179, 179);
+}
+
+
+.company-logo{
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 2px;
+   font-size: 20px;
+}
+.company-logo:hover{
+    background-color: orange;
+}
+
+.news *{
+    margin-top: 20px;
+}
+
+.news input{
+    font-size: 16px;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.644);
+    border: none;
+}
+
+.copyright{
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.copyright span{
+    color: orangered;
+}
