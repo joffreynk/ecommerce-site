@@ -54,6 +54,11 @@
     cursor: pointer;
 }
 
+#menu li a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
 .emojis-header:hover{
     background-color: orange;
 }

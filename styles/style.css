@@ -2,6 +2,14 @@
 features products
  */
 
+ a {
+    text-decoration: none;
+ }
+
+ a:visited {
+    color: gray;
+ }
+
 .features{
     margin-top: 50px;
     display: flex;
