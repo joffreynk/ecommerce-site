@@ -4,6 +4,11 @@
 
 > The ecommerce site is project build on intention of HTML, CSS, and some JavaScript best practices. It is just blue print of ecommerce site with all features necessary. I Can customize it based on clients needs and deliver it
 
+
+##Demo: https://joffreynk.github.io/ecommerce-site/
+
+
+
 ## Built With
 
 - HTML
@@ -23,6 +28,8 @@ cd ecommerce-site
 
 find index.html and open it in browser
 ```
+
+# ⚠️ all links are not working. As I just said, it is a blueprint
 
 
 ## Author
