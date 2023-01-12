@@ -1,57 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Ecommerce site
 
-> Description the project.
-
+> The ecommerce site is project build on intention of HTML, CSS, and some JavaScript best practices. It is just blue print of ecommerce site with all features necessary. I Can customize it based on clients needs and deliver it
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- JavaScript
+- CSS
 
-## Live Demo (if available)
-
-[Live Demo Link](https://joffreynk.github.io/ecommerce-site/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**clone the project by running:
+
+```
+$ git clone https://github.com/JoffreyNK/ecommerce-site/
+
+cd ecommerce-site
+
+find index.html and open it in browser
+```
 
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **Joffrey**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@joffreynk](https://github.com/joffreynk)
+- GitHub: [@joffreynk](https://github.com/JoffreyNK)
 - Twitter: [@joffreynk](https://twitter.com/joffreynk)
-- LinkedIn: [joffreynk](https://linkedin.com/in/joffreynk)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joffrey-nkeshimana-15b8aa1b3/)
 
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to comment in issues section any bugs or changes that you would like to apply on this project
+check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -59,9 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This work was done in collaborative teams  and you cannot find it anywhere else
 
 ## 📝 License
 
