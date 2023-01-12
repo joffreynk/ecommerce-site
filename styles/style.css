@@ -4,6 +4,7 @@ features products
 
  a {
     text-decoration: none;
+    color: gray;
  }
 
  a:visited {
